@@ -9,3 +9,14 @@ class Solution {
         return false;
     }
 }
+
+//
+
+class Solution {
+    fun containsDuplicate(nums: IntArray): Boolean {
+        val set = mutableSetOf<Int>();
+        nums.forEach { it -> if (!set.add(it)) return true }
+        
+        return false;
+    }
+}
