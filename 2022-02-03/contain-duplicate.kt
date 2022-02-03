@@ -1,3 +1,8 @@
+/**
+* Runtime: 708 ms
+* Memory Usage: 71.8 MB
+*/
+
 class Solution {
     fun containsDuplicate(nums: IntArray): Boolean {
         val map = mutableMapOf<Int, Int>();
@@ -10,8 +15,10 @@ class Solution {
     }
 }
 
-//
-
+/**
+* Runtime: 372 ms, faster than 80.64% of Kotlin online submissions for Contains Duplicate.
+* Memory Usage: 49 MB, less than 78.68% of Kotlin online submissions for Contains Duplicate.
+*/
 class Solution {
     fun containsDuplicate(nums: IntArray): Boolean {
         val set = mutableSetOf<Int>();
